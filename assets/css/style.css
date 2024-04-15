@@ -27,14 +27,14 @@ body {
     margin-bottom: 16px;
     padding: 16px;
 }
-h1{
-    color: #31A8DD;
+.banner h1{
     font-weight: 900;
     background: -webkit-linear-gradient(#33A8DB, #1472B7);
     background-clip: text;
     color: transparent;
     font-size: 2.5rem;
     text-transform: uppercase;
+    -webkit-background-clip: text;
 }
 h2 {
     color: #31A8DD;
