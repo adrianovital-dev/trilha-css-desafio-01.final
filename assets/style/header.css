@@ -1,0 +1,49 @@
+@import url(./reset.css);
+
+.banner {
+    width: 100vw;
+    height: 605px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(49,168,221,0)), url(../images/banner.png);
+    background-size: cover;
+    border: 1px solid rgba(51, 168, 219, 1);
+    background-blend-mode: difference;
+}   
+
+.banner-content {
+    width: 510px;
+    height: 393px; 
+}
+
+.title {/* teve que criar uma class, direto na tag h1 não fez o efeito. */
+    -webkit-background-clip: text;
+    background-image: linear-gradient(#33A8DB, #1472B7);
+    color: transparent;
+    background-clip: text;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+    color:  rgba(255, 255, 255, 1);
+    text-align: justify;
+
+}
+
+button {
+    width: 326px;
+    height: 57px;
+    border: 2px solid rgba(49, 168, 221, 1);
+    padding: 19px 91px;
+}
+
+.button {
+    color: rgba(49, 168, 221, 1);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+}

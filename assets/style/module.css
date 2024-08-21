@@ -1,0 +1,25 @@
+@import url(./reset.css);
+
+#course-content {
+    width: 100vw;
+    height: 605px;
+    background-color: black;
+}
+
+.module {
+    width: 535px;
+    height: 51px;
+    border-radius: 57px;
+    border: 1px solid   rgba(51, 168, 219, 1);
+    padding: 16px 127px;
+    box-shadow: inset -2px 6px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+span {
+    width: 281pxpx;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: rgba(255, 255, 255, 1);
+}

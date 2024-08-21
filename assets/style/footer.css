@@ -1,0 +1,10 @@
+footer {
+    width: 100vw;
+    height: 170px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(6, 61, 85, 0.568));
+    border: 1px solid rgba(3, 47, 66, 0.6);
+}
+
+p {
+    text-align: center;
+}
