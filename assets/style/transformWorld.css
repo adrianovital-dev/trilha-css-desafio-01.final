@@ -1,0 +1,27 @@
+@import url(./reset.css);
+
+#transform-world {
+    /* width: 100vw; removed */
+    /* height: 37vh; substituido*/
+    height: 560px;
+    /* border: 1px solid rgba(51, 168, 219, 1); subtistuido*/
+    border-top: 1px solid #33A8DB80;/* add */
+    border-bottom: 1px solid #33A8DB80;/* add */
+    background-image: url(../images/woman-code.png);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px;
+}
+
+#transform-world p {
+/*     width: 24.4vw;
+    height: 14.1vh; removed */
+    font-weight: 900;
+    font-size: 2.5rem;/* estava no figman 40px*/
+/*     line-height: 46.96px; removed, estava no figman */
+    text-transform: lowercase;/* tudo minusculo, sans serif */
+    /* color: rgba(255, 255, 255, 1); removed */
+    max-width: 250px;
+    text-shadow: 3px 2px 0px rgba(51, 168, 219, 1);
+    /* text-align: start; removed */
+}

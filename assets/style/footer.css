@@ -1,0 +1,26 @@
+footer {
+/*     width: 100vw;
+    height: 170px; estava no figman, removed*/
+    padding: 60px 0;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(6, 61, 85, 0.568)); dados do figman, mas nao sei pq ficou diferente.*/
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    /* border: 1px solid rgba(3, 47, 66, 0.6); substituido */
+    border-top: 1px solid #33A8DB80;
+    text-align: center;
+}
+footer .dio-logo {
+    width: 300px;/*  estava no figman 310px */
+    /* padding-top: 59px; removed */
+}
+
+/* footer p {
+    text-align: center;
+    font-weight: 400;
+    line-height: 18.78px;
+} removed */
+
+footer a {
+    color: rgba(49, 168, 221, 1);
+    font-weight: bold;/* add */
+    text-decoration: none;/* add, remover sublinhado do link*/
+}

@@ -1,0 +1,52 @@
+@import url(./reset.css);
+
+#course-content {/* megendo na seção toda */
+    width: 800px;
+    /* height: 533px; removed*/
+    /* background-color: black; removed*/
+    /* margin: auto; substituido*/
+    text-align: center;
+}
+
+#course-content .modules-list {/* div de todos os modulos */
+    margin: 24px 0;
+}
+
+/* #course-content h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    color: rgba(51, 168, 219, 1);
+    padding: 118px 157.5px 24px;
+    text-align: center;
+} removed*/
+
+/* #course-content p {
+    height: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+} removed*/
+
+#course-content .modules-list .module {
+    color: white;/* add */
+    width: 530px;
+    /* height: 51px; removed*/
+    border-radius: 100px;/* estava 57px */
+    border: 1px solid rgba(51, 168, 219, 1);
+    padding: 16px; /* estava 16px 127px */
+    background-color: rgba(37, 37, 37, 1);
+    box-shadow: inset -5px 6px 8px 0px rgba(0, 0, 0, 0.7);/* estava -2px 6px 4px 0px rgba(0, 0, 0, 0.4) */
+    margin: 0 auto 24px;/* estava auto */
+}
+
+#course-content .modules-list .module span{ /* add */
+    color: rgba(51, 168, 219, 1);
+}
+
+/* span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: rgba(51, 168, 219, 1)
+} O que estava no figman*/

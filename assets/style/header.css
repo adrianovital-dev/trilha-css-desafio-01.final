@@ -1,0 +1,91 @@
+@import url(./reset.css);
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(49,168,221,0)), url(../images/banner.png);
+    background-size: cover;
+    /*background-repeat: repeat-y; substituido */
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px; /* add */
+    /* padding: 56px 465px 75px; substituido */
+/*     border: 1px solid rgba(51, 168, 219, 1); removed*/
+    /* border-top: 1px solid rgba(51, 168, 219, 1);substituido */
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    /* background-blend-mode: difference; removed */
+}   
+
+.banner .banner-content {
+    /* width: 510px; substituido*/
+    color: white;/* add */
+    width: 600px;
+    /* height: 393px; removed*/
+    margin: auto;
+    text-align: center;/* add */
+}
+
+.banner h1 {
+    -webkit-background-clip: text;
+    background-image: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    color: transparent;
+    background-clip: text;
+/*     width: 434px;
+    height: 47px; removed*/
+    /* font-size: 40px; subtituido */
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;/* add */
+/*     line-height: 46.96px;
+    margin: auto; removed*/
+}
+
+.banner p {
+    /* font-size: 19px; subtituido*/
+    font-size: 1.25rem;
+    margin: 16px 0 24px; /* add */
+/*     line-height: 23.48px;
+    text-align: justify; removed*/
+}
+.banner .logo{ /* criar o fundo circular atrás do logo */
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 16px;/* add */
+    margin-bottom: 16px;/* add */
+}
+
+/* add */
+.banner .logo img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;/* redimensionar o logo a frente do circulo */
+}
+
+.banner .banner-content button {
+    color: rgba(49, 168, 221, 1);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;/* tudo maiusculo */
+    letter-spacing: 4px; /* espaço entre cada letra add */
+    background-color: transparent;
+    border-image: linear-gradient(rgba(59, 161, 205, 1), rgba(21, 114, 183, 1));/* adicionar imagems ou degrader na borda. */
+    border-image-slice: 10; /* add */
+    border-radius: 30px;
+}
+/* button {
+    width: 326px;
+    height: 57px;
+    color: rgba(49, 168, 221, 1);
+    border: 2px solid ;
+    background-color: transparent;
+} outro caminho e coisas diferentes*/
+
+/* .button {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+} coisas desnecessarias */
