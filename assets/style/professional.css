@@ -1,4 +1,33 @@
 #professional-challenges {
-    width: 100vw;
-    background-color: black;
+    /* width: 100vw; substitudo estava no figman*/
+    width: 800px;
+    /* background-color: black; removed */
+    text-align: center;
 }
+
+#professional-challenges img {/* add */
+    margin: 32px 0;
+}
+
+/* .professional-challenges-title {
+    width: 746px;
+    height: 76px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    color: rgba(49, 168, 221, 1);
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    padding: 73px;
+} removed */
+
+/* .professional-challenges-p {
+    width: 792px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+    margin: auto;
+    padding: 53px;
+} removed */

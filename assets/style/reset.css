@@ -1,9 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+/* removed meu padrão bem diferente*{
     padding: 0;
     box-sizing: border-box;
     border: 0;
     margin: 0;
     font-family: Raleway;
+    text-decoration: none; 
 }
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100vw;
+    height: 2491px;
+}
+
+p {
+    color: rgba(255, 255, 255, 1);
+} */
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  section {
+    margin: 100px auto;
+  }
