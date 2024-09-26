@@ -24,7 +24,7 @@ section {
 
 .banner {
   background-image: linear-gradient(rgba(0,0,0, .6), 
-  rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../assets/images/banner.png');
+  rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('/assets/images/banner.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
@@ -43,9 +43,9 @@ section {
   font-size: 2.5rem;
   font-weight: 900;
   text-transform: uppercase;
-  color: transparent;
+  color: #36a5e1;
+  padding: 1rem;
   background: -webkit-linear-gradient(#33A8DB, #1472B7);
-  /*-webkit-background-clip: text;*/
 }
 
 .banner .logo {
@@ -104,7 +104,7 @@ section {
 #transform-world {
   height: 560px;
   background-size: cover;
-  background-image: url(/img/woman-code.png);
+  background-image: url(/assets/images/woman-code.png);
   background-attachment: fixed;
   border-top: 1px solid #33a8db80;
   border-bottom: 1px solid #33a8db80;
